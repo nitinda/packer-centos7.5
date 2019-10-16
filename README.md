@@ -20,7 +20,7 @@ The following software must be installed/present on your local machine before yo
 
 Make sure all the required software (listed above) is installed, then cd to the directory containing this README.md file, and run:
 
-    $ packer build -var 'version=1.2.0' centos8.json
+    $ centos7.5-packer-build.sh <VagrantCloud User/login> <VagrantCloud Password>
 
 After a few minutes, Packer should tell you the box was generated successfully, and the box was uploaded to Vagrant Cloud.
 
@@ -28,8 +28,9 @@ After a few minutes, Packer should tell you the box was generated successfully, 
 
 ## Testing built boxes
 
-There's an included Vagrantfile that allows quick testing of the built Vagrant boxes. From this same directory, run one the following command after building the box:
+There's an included Vagrantfile that allows quick testing of the built Vagrant boxes. From VagrantFile-Example/ directory, run one the following command after building the box:
 
+    $ cd VagrantFile-Example/
     $ vagrant up
 
 ## License
