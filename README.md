@@ -1,4 +1,4 @@
-# Packer - CentOS 7.5 Vagrant Box
+# Packer - CentOS 7.5 Vagrant Box With GNOME Desktop
 
 **Current CentOS Version Used**: 7.5 (1804)
 
